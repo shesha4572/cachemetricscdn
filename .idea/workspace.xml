@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="31e3a376-23f8-49e6-9f87-29ca0535a2c7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/cachemetricscdn.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/cachemetricscdn.iml" afterDir="false" />
+    <list default="true" id="31e3a376-23f8-49e6-9f87-29ca0535a2c7" name="Changes" comment="Working mpd cache">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -27,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -124,8 +124,18 @@
       <updated>1712206428965</updated>
       <workItem from="1712206476681" duration="3636000" />
       <workItem from="1712393274403" duration="2202000" />
-      <workItem from="1712421591253" duration="5768000" />
+      <workItem from="1712421591253" duration="6013000" />
+      <workItem from="1712464946453" duration="4825000" />
     </task>
+    <task id="LOCAL-00001" summary="Working mpd cache">
+      <option name="closed" value="true" />
+      <created>1712428614425</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1712428614425</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +152,11 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Working mpd cache" />
+    <option name="LAST_COMMIT_MESSAGE" value="Working mpd cache" />
+  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/cachemetricscdn$cachemetricscdn.coverage" NAME="cachemetricscdn Coverage Results" MODIFIED="1712424530814" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
+    <SUITE FILE_PATH="coverage/cachemetricscdn$cachemetricscdn.coverage" NAME="cachemetricscdn Coverage Results" MODIFIED="1712469011023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="" />
   </component>
 </project>
