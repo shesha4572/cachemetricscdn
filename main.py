@@ -4,7 +4,7 @@ from threading import Lock
 import logging
 import httpx
 import random
-from starlette.middleware.cors import CORSMiddleware
+from fastapi.middleware.cors import CORSMiddleware
 from starlette.responses import FileResponse
 
 app = FastAPI()
@@ -22,10 +22,11 @@ SEG_CACHE_MAX_COUNT = 128
 
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=['*'],
     allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=['*'],
+    allow_headers=['*'],
+    expose_headers=["X-Segment-Cache-Hit-Flag"]
 )
 
 
