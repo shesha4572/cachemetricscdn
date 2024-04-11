@@ -18,7 +18,7 @@ seg_cache_lock = Lock()
 mpd_dir = os.getenv("MPD_DIR")
 seg_cache_dir = os.getenv("SEG_CACHE_DIR")
 origin_server_base_url = os.getenv("ORIGIN_SERVER_URL")
-SEG_CACHE_MAX_COUNT = 128
+SEG_CACHE_MAX_COUNT = 256
 
 app.add_middleware(
     CORSMiddleware,

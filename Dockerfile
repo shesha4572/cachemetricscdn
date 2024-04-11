@@ -8,5 +8,4 @@ RUN mkdir /seg
 ENV MPD_DIR="/mpd"
 EXPOSE 8000
 ENV SEG_CACHE_DIR="/seg"
-ENV ORIGIN_SERVER_URL="http://192.168.0.1:8080"
 CMD ["uvicorn", "app.main:app", "--host", "0.0.0.0", "--port", "8000"]
